@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DJLabelTestUIView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) DJLabelTestUIView *testUIView;
 
 @end
 
@@ -16,6 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.testUIView = [[DJLabelTestUIView alloc] initWithFrame:self.view.bounds];
+    self.testUIView.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:self.testUIView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

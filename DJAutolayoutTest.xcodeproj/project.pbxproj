@@ -15,6 +15,7 @@
 		92F0B24A21CA43E500F55FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B24921CA43E500F55FC3 /* main.m */; };
 		92F0B25421CA43E500F55FC3 /* DJAutolayoutTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B25321CA43E500F55FC3 /* DJAutolayoutTestTests.m */; };
 		92F0B25F21CA43E500F55FC3 /* DJAutolayoutTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B25E21CA43E500F55FC3 /* DJAutolayoutTestUITests.m */; };
+		92F0B26E21CA441600F55FC3 /* DJLabelTestUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B26D21CA441600F55FC3 /* DJLabelTestUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		92F0B25A21CA43E500F55FC3 /* DJAutolayoutTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJAutolayoutTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F0B25E21CA43E500F55FC3 /* DJAutolayoutTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAutolayoutTestUITests.m; sourceTree = "<group>"; };
 		92F0B26021CA43E500F55FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F0B26C21CA441600F55FC3 /* DJLabelTestUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJLabelTestUIView.h; sourceTree = "<group>"; };
+		92F0B26D21CA441600F55FC3 /* DJLabelTestUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLabelTestUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				92F0B24521CA43E500F55FC3 /* LaunchScreen.storyboard */,
 				92F0B24821CA43E500F55FC3 /* Info.plist */,
 				92F0B24921CA43E500F55FC3 /* main.m */,
+				92F0B26C21CA441600F55FC3 /* DJLabelTestUIView.h */,
+				92F0B26D21CA441600F55FC3 /* DJLabelTestUIView.m */,
 			);
 			path = DJAutolayoutTest;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92F0B23F21CA43E300F55FC3 /* ViewController.m in Sources */,
+				92F0B26E21CA441600F55FC3 /* DJLabelTestUIView.m in Sources */,
 				92F0B24A21CA43E500F55FC3 /* main.m in Sources */,
 				92F0B23C21CA43E300F55FC3 /* AppDelegate.m in Sources */,
 			);
